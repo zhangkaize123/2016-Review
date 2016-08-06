@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Z1D-gU-5v8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="wmA-yb-QOh">
+            <objects>
+                <navigationController id="Z1D-gU-5v8" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iZW-26-mIk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4am-EL-toh" kind="relationship" relationship="rootViewController" id="QlI-6f-jwg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yq0-WR-qVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-160" y="151"/>
+        </scene>
+        <!--第一个控制器-->
+        <scene sceneID="0tE-In-lm1">
+            <objects>
+                <viewController id="4am-EL-toh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mcd-u4-4yN"/>
+                        <viewControllerLayoutGuide type="bottom" id="qou-Xs-m7T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7TW-o0-N4t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhm-I1-bsi">
+                                <rect key="frame" x="98" y="164" width="124" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="HKP-fp-d2Q"/>
+                                    <constraint firstAttribute="height" constant="30" id="x6t-Xo-FQK"/>
+                                </constraints>
+                                <state key="normal" title="jump2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gXs-ND-ev2" kind="push" id="imp-Si-VlA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jhm-I1-bsi" secondAttribute="trailing" constant="98" id="IGw-wT-Wkt"/>
+                            <constraint firstItem="jhm-I1-bsi" firstAttribute="top" secondItem="mcd-u4-4yN" secondAttribute="bottom" constant="100" id="YWU-6B-5pI"/>
+                            <constraint firstItem="jhm-I1-bsi" firstAttribute="leading" secondItem="7TW-o0-N4t" secondAttribute="leading" constant="98" id="rfk-sg-Re2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="第一个控制器" id="0pN-K1-on8">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="ouu-th-Uzx"/>
+                        <barButtonItem key="leftBarButtonItem" title="help" id="BwC-Bu-7o4"/>
+                        <barButtonItem key="rightBarButtonItem" title="书签" systemItem="bookmarks" id="C9j-Xc-bHx"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7t4-Uu-6eY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="69"/>
+        </scene>
+        <!--第二个控制器-->
+        <scene sceneID="B9G-tp-ZGn">
+            <objects>
+                <viewController id="gXs-ND-ev2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="syp-fX-DgD"/>
+                        <viewControllerLayoutGuide type="bottom" id="JA4-rV-gpg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a7z-HW-57U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二个控制器" id="jLB-Tz-dVv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0h-q8-9OD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1112" y="175"/>
+        </scene>
+    </scenes>
+</document>

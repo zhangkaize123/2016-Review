@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9632611C1FF43800E05B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9632601C1FF43800E05B69 /* main.m */; };
+		3C9632641C1FF43800E05B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9632631C1FF43800E05B69 /* AppDelegate.m */; };
+		3C9632671C1FF43800E05B69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9632661C1FF43800E05B69 /* ViewController.m */; };
+		3C96326A1C1FF43800E05B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9632681C1FF43800E05B69 /* Main.storyboard */; };
+		3C96326C1C1FF43800E05B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C96326B1C1FF43800E05B69 /* Assets.xcassets */; };
+		3C96326F1C1FF43800E05B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C96326D1C1FF43800E05B69 /* LaunchScreen.storyboard */; };
+		3C9632801C2000AB00E05B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C96327F1C2000AB00E05B69 /* main.m */; };
+		3C9632831C2000AB00E05B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9632821C2000AB00E05B69 /* AppDelegate.m */; };
+		3C96328B1C2000AB00E05B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C96328A1C2000AB00E05B69 /* Assets.xcassets */; };
+		3C96328E1C2000AB00E05B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C96328C1C2000AB00E05B69 /* LaunchScreen.storyboard */; };
+		3C9632941C2001AB00E05B69 /* two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9632931C2001AB00E05B69 /* two.storyboard */; };
+		3C9632971C200ADE00E05B69 /* ZKZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9632961C200ADE00E05B69 /* ZKZViewController.m */; };
+		3C9632A01C200E0300E05B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C96329F1C200E0300E05B69 /* main.m */; };
+		3C9632A31C200E0300E05B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9632A21C200E0300E05B69 /* AppDelegate.m */; };
+		3C9632AB1C200E0300E05B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9632AA1C200E0300E05B69 /* Assets.xcassets */; };
+		3C9632AE1C200E0300E05B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9632AC1C200E0300E05B69 /* LaunchScreen.storyboard */; };
+		3C9632B51C200F0800E05B69 /* ZKZXIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9632B41C200F0800E05B69 /* ZKZXIBViewController.m */; };
+		3C9632B71C200F8400E05B69 /* ZKZXIBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9632B61C200F8400E05B69 /* ZKZXIBView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C96325C1C1FF43800E05B69 /* 12.15.00 控制器的创建方式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12.15.00 控制器的创建方式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9632601C1FF43800E05B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C9632621C1FF43800E05B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C9632631C1FF43800E05B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C9632651C1FF43800E05B69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C9632661C1FF43800E05B69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C9632691C1FF43800E05B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C96326B1C1FF43800E05B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C96326E1C1FF43800E05B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C9632701C1FF43800E05B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C96327C1C2000AB00E05B69 /* 使用storybaord创建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "使用storybaord创建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C96327F1C2000AB00E05B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C9632811C2000AB00E05B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C9632821C2000AB00E05B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C96328A1C2000AB00E05B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C96328D1C2000AB00E05B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C96328F1C2000AB00E05B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9632931C2001AB00E05B69 /* two.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = two.storyboard; sourceTree = "<group>"; };
+		3C9632951C200ADE00E05B69 /* ZKZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZViewController.h; sourceTree = "<group>"; };
+		3C9632961C200ADE00E05B69 /* ZKZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZViewController.m; sourceTree = "<group>"; };
+		3C96329C1C200E0300E05B69 /* 使用XIB创建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "使用XIB创建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C96329F1C200E0300E05B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C9632A11C200E0300E05B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C9632A21C200E0300E05B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C9632AA1C200E0300E05B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9632AD1C200E0300E05B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C9632AF1C200E0300E05B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9632B31C200F0800E05B69 /* ZKZXIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZXIBViewController.h; sourceTree = "<group>"; };
+		3C9632B41C200F0800E05B69 /* ZKZXIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZXIBViewController.m; sourceTree = "<group>"; };
+		3C9632B61C200F8400E05B69 /* ZKZXIBView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKZXIBView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9632591C1FF43800E05B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9632791C2000AB00E05B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9632991C200E0300E05B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9632531C1FF43800E05B69 = {
+			isa = PBXGroup;
+			children = (
+				3C96325E1C1FF43800E05B69 /* 12.15.00 控制器的创建方式 */,
+				3C96327D1C2000AB00E05B69 /* 使用storybaord创建 */,
+				3C96329D1C200E0300E05B69 /* 使用XIB创建 */,
+				3C96325D1C1FF43800E05B69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C96325D1C1FF43800E05B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C96325C1C1FF43800E05B69 /* 12.15.00 控制器的创建方式.app */,
+				3C96327C1C2000AB00E05B69 /* 使用storybaord创建.app */,
+				3C96329C1C200E0300E05B69 /* 使用XIB创建.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C96325E1C1FF43800E05B69 /* 12.15.00 控制器的创建方式 */ = {
+			isa = PBXGroup;
+			children = (
+				3C9632621C1FF43800E05B69 /* AppDelegate.h */,
+				3C9632631C1FF43800E05B69 /* AppDelegate.m */,
+				3C9632651C1FF43800E05B69 /* ViewController.h */,
+				3C9632661C1FF43800E05B69 /* ViewController.m */,
+				3C96325F1C1FF43800E05B69 /* Supporting Files */,
+			);
+			path = "12.15.00 控制器的创建方式";
+			sourceTree = "<group>";
+		};
+		3C96325F1C1FF43800E05B69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9632681C1FF43800E05B69 /* Main.storyboard */,
+				3C96326B1C1FF43800E05B69 /* Assets.xcassets */,
+				3C96326D1C1FF43800E05B69 /* LaunchScreen.storyboard */,
+				3C9632701C1FF43800E05B69 /* Info.plist */,
+				3C9632601C1FF43800E05B69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C96327D1C2000AB00E05B69 /* 使用storybaord创建 */ = {
+			isa = PBXGroup;
+			children = (
+				3C9632811C2000AB00E05B69 /* AppDelegate.h */,
+				3C9632821C2000AB00E05B69 /* AppDelegate.m */,
+				3C9632951C200ADE00E05B69 /* ZKZViewController.h */,
+				3C9632961C200ADE00E05B69 /* ZKZViewController.m */,
+				3C9632931C2001AB00E05B69 /* two.storyboard */,
+				3C96327E1C2000AB00E05B69 /* Supporting Files */,
+			);
+			path = "使用storybaord创建";
+			sourceTree = "<group>";
+		};
+		3C96327E1C2000AB00E05B69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C96328A1C2000AB00E05B69 /* Assets.xcassets */,
+				3C96328C1C2000AB00E05B69 /* LaunchScreen.storyboard */,
+				3C96328F1C2000AB00E05B69 /* Info.plist */,
+				3C96327F1C2000AB00E05B69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C96329D1C200E0300E05B69 /* 使用XIB创建 */ = {
+			isa = PBXGroup;
+			children = (
+				3C9632A11C200E0300E05B69 /* AppDelegate.h */,
+				3C9632A21C200E0300E05B69 /* AppDelegate.m */,
+				3C9632B31C200F0800E05B69 /* ZKZXIBViewController.h */,
+				3C9632B41C200F0800E05B69 /* ZKZXIBViewController.m */,
+				3C9632B61C200F8400E05B69 /* ZKZXIBView.xib */,
+				3C96329E1C200E0300E05B69 /* Supporting Files */,
+			);
+			path = "使用XIB创建";
+			sourceTree = "<group>";
+		};
+		3C96329E1C200E0300E05B69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9632AA1C200E0300E05B69 /* Assets.xcassets */,
+				3C9632AC1C200E0300E05B69 /* LaunchScreen.storyboard */,
+				3C9632AF1C200E0300E05B69 /* Info.plist */,
+				3C96329F1C200E0300E05B69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C96325B1C1FF43800E05B69 /* 12.15.00 控制器的创建方式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9632731C1FF43800E05B69 /* Build configuration list for PBXNativeTarget "12.15.00 控制器的创建方式" */;
+			buildPhases = (
+				3C9632581C1FF43800E05B69 /* Sources */,
+				3C9632591C1FF43800E05B69 /* Frameworks */,
+				3C96325A1C1FF43800E05B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12.15.00 控制器的创建方式";
+			productName = "12.15.00 控制器的创建方式";
+			productReference = 3C96325C1C1FF43800E05B69 /* 12.15.00 控制器的创建方式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C96327B1C2000AB00E05B69 /* 使用storybaord创建 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9632901C2000AB00E05B69 /* Build configuration list for PBXNativeTarget "使用storybaord创建" */;
+			buildPhases = (
+				3C9632781C2000AB00E05B69 /* Sources */,
+				3C9632791C2000AB00E05B69 /* Frameworks */,
+				3C96327A1C2000AB00E05B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用storybaord创建";
+			productName = "使用storybaord创建";
+			productReference = 3C96327C1C2000AB00E05B69 /* 使用storybaord创建.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C96329B1C200E0300E05B69 /* 使用XIB创建 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9632B01C200E0300E05B69 /* Build configuration list for PBXNativeTarget "使用XIB创建" */;
+			buildPhases = (
+				3C9632981C200E0300E05B69 /* Sources */,
+				3C9632991C200E0300E05B69 /* Frameworks */,
+				3C96329A1C200E0300E05B69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用XIB创建";
+			productName = "使用XIB创建";
+			productReference = 3C96329C1C200E0300E05B69 /* 使用XIB创建.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9632541C1FF43800E05B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3C96325B1C1FF43800E05B69 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3C96327B1C2000AB00E05B69 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3C96329B1C200E0300E05B69 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3C9632571C1FF43800E05B69 /* Build configuration list for PBXProject "12.15.00 控制器的创建方式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9632531C1FF43800E05B69;
+			productRefGroup = 3C96325D1C1FF43800E05B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C96325B1C1FF43800E05B69 /* 12.15.00 控制器的创建方式 */,
+				3C96327B1C2000AB00E05B69 /* 使用storybaord创建 */,
+				3C96329B1C200E0300E05B69 /* 使用XIB创建 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C96325A1C1FF43800E05B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C96326F1C1FF43800E05B69 /* LaunchScreen.storyboard in Resources */,
+				3C96326C1C1FF43800E05B69 /* Assets.xcassets in Resources */,
+				3C96326A1C1FF43800E05B69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C96327A1C2000AB00E05B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C96328E1C2000AB00E05B69 /* LaunchScreen.storyboard in Resources */,
+				3C96328B1C2000AB00E05B69 /* Assets.xcassets in Resources */,
+				3C9632941C2001AB00E05B69 /* two.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C96329A1C200E0300E05B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9632B71C200F8400E05B69 /* ZKZXIBView.xib in Resources */,
+				3C9632AE1C200E0300E05B69 /* LaunchScreen.storyboard in Resources */,
+				3C9632AB1C200E0300E05B69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9632581C1FF43800E05B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9632671C1FF43800E05B69 /* ViewController.m in Sources */,
+				3C9632641C1FF43800E05B69 /* AppDelegate.m in Sources */,
+				3C9632611C1FF43800E05B69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9632781C2000AB00E05B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9632971C200ADE00E05B69 /* ZKZViewController.m in Sources */,
+				3C9632831C2000AB00E05B69 /* AppDelegate.m in Sources */,
+				3C9632801C2000AB00E05B69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9632981C200E0300E05B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9632A31C200E0300E05B69 /* AppDelegate.m in Sources */,
+				3C9632A01C200E0300E05B69 /* main.m in Sources */,
+				3C9632B51C200F0800E05B69 /* ZKZXIBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C9632681C1FF43800E05B69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9632691C1FF43800E05B69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C96326D1C1FF43800E05B69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C96326E1C1FF43800E05B69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C96328C1C2000AB00E05B69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C96328D1C2000AB00E05B69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C9632AC1C200E0300E05B69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9632AD1C200E0300E05B69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C9632711C1FF43800E05B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: meng ying (9WVKURBZ9D)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "01f259e5-8998-4fbf-8996-86d597609c43";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C9632721C1FF43800E05B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: meng ying (9WVKURBZ9D)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "01f259e5-8998-4fbf-8996-86d597609c43";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9632741C1FF43800E05B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "12.15.00 控制器的创建方式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.-2-15-00---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C9632751C1FF43800E05B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "12.15.00 控制器的创建方式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.-2-15-00---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C9632911C2000AB00E05B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "使用storybaord创建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.--storybaord--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C9632921C2000AB00E05B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "使用storybaord创建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.--storybaord--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C9632B11C200E0300E05B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "使用XIB创建/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.--XIB--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5114eb83-c285-49f2-991e-73b303642e67";
+			};
+			name = Debug;
+		};
+		3C9632B21C200E0300E05B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "使用XIB创建/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.--XIB--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5114eb83-c285-49f2-991e-73b303642e67";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9632571C1FF43800E05B69 /* Build configuration list for PBXProject "12.15.00 控制器的创建方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9632711C1FF43800E05B69 /* Debug */,
+				3C9632721C1FF43800E05B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9632731C1FF43800E05B69 /* Build configuration list for PBXNativeTarget "12.15.00 控制器的创建方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9632741C1FF43800E05B69 /* Debug */,
+				3C9632751C1FF43800E05B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9632901C2000AB00E05B69 /* Build configuration list for PBXNativeTarget "使用storybaord创建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9632911C2000AB00E05B69 /* Debug */,
+				3C9632921C2000AB00E05B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9632B01C200E0300E05B69 /* Build configuration list for PBXNativeTarget "使用XIB创建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9632B11C200E0300E05B69 /* Debug */,
+				3C9632B21C200E0300E05B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9632541C1FF43800E05B69 /* Project object */;
+}

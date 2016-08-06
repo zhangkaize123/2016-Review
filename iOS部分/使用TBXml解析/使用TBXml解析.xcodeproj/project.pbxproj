@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1C23841C047ECB00FB295F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C23831C047ECB00FB295F /* main.m */; };
+		3C1C23871C047ECB00FB295F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C23861C047ECB00FB295F /* AppDelegate.m */; };
+		3C1C238A1C047ECB00FB295F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C23891C047ECB00FB295F /* ViewController.m */; };
+		3C1C238D1C047ECB00FB295F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C238B1C047ECB00FB295F /* Main.storyboard */; };
+		3C1C238F1C047ECB00FB295F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C238E1C047ECB00FB295F /* Assets.xcassets */; };
+		3C1C23921C047ECB00FB295F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C23901C047ECB00FB295F /* LaunchScreen.storyboard */; };
+		3C1C23A11C047F1C00FB295F /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C239A1C047F1C00FB295F /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C1C23A21C047F1C00FB295F /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C239B1C047F1C00FB295F /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C1C23A31C047F1C00FB295F /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C239C1C047F1C00FB295F /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C1C23A51C047F3E00FB295F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1C23A41C047F3E00FB295F /* libz.tbd */; };
+		3C1C23A71C047FD000FB295F /* books.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C23A61C047FD000FB295F /* books.xml */; };
+		3C1C23AA1C0487FF00FB295F /* refresh_test副本.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C23A91C0487FF00FB295F /* refresh_test副本.xml */; };
+		3C393A521C7AFCBC002725EF /* ZKZAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C393A511C7AFCBC002725EF /* ZKZAuthor.m */; };
+		3C393A561C7AFDD3002725EF /* ZKZBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C393A551C7AFDD3002725EF /* ZKZBook.m */; };
+		3C393A6A1C7B3CF0002725EF /* books2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C393A691C7B3CF0002725EF /* books2.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C1C237F1C047ECB00FB295F /* 使用TBXml解析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "使用TBXml解析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1C23831C047ECB00FB295F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C1C23851C047ECB00FB295F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C1C23861C047ECB00FB295F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C1C23881C047ECB00FB295F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C1C23891C047ECB00FB295F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C1C238C1C047ECB00FB295F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C1C238E1C047ECB00FB295F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C1C23911C047ECB00FB295F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C1C23931C047ECB00FB295F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1C239A1C047F1C00FB295F /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		3C1C239B1C047F1C00FB295F /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		3C1C239C1C047F1C00FB295F /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		3C1C239E1C047F1C00FB295F /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		3C1C239F1C047F1C00FB295F /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		3C1C23A01C047F1C00FB295F /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		3C1C23A41C047F3E00FB295F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3C1C23A61C047FD000FB295F /* books.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = books.xml; sourceTree = "<group>"; };
+		3C1C23A91C0487FF00FB295F /* refresh_test副本.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "refresh_test副本.xml"; sourceTree = "<group>"; };
+		3C393A501C7AFCBC002725EF /* ZKZAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKZAuthor.h; path = "TBXML-Code/ZKZAuthor.h"; sourceTree = "<group>"; };
+		3C393A511C7AFCBC002725EF /* ZKZAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKZAuthor.m; path = "TBXML-Code/ZKZAuthor.m"; sourceTree = "<group>"; };
+		3C393A541C7AFDD3002725EF /* ZKZBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZBook.h; sourceTree = "<group>"; };
+		3C393A551C7AFDD3002725EF /* ZKZBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZBook.m; sourceTree = "<group>"; };
+		3C393A691C7B3CF0002725EF /* books2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = books2.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1C237C1C047ECB00FB295F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C23A51C047F3E00FB295F /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1C23761C047ECB00FB295F = {
+			isa = PBXGroup;
+			children = (
+				3C1C23A41C047F3E00FB295F /* libz.tbd */,
+				3C1C23811C047ECB00FB295F /* 使用TBXml解析 */,
+				3C1C23801C047ECB00FB295F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1C23801C047ECB00FB295F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C237F1C047ECB00FB295F /* 使用TBXml解析.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C1C23811C047ECB00FB295F /* 使用TBXml解析 */ = {
+			isa = PBXGroup;
+			children = (
+				3C393A531C7AFCCA002725EF /* model */,
+				3C1C23991C047F1C00FB295F /* TBXML-Code */,
+				3C1C239D1C047F1C00FB295F /* TBXML-Headers */,
+				3C1C23851C047ECB00FB295F /* AppDelegate.h */,
+				3C1C23861C047ECB00FB295F /* AppDelegate.m */,
+				3C1C23881C047ECB00FB295F /* ViewController.h */,
+				3C1C23891C047ECB00FB295F /* ViewController.m */,
+				3C1C238B1C047ECB00FB295F /* Main.storyboard */,
+				3C1C238E1C047ECB00FB295F /* Assets.xcassets */,
+				3C1C23901C047ECB00FB295F /* LaunchScreen.storyboard */,
+				3C1C23931C047ECB00FB295F /* Info.plist */,
+				3C1C23821C047ECB00FB295F /* Supporting Files */,
+			);
+			path = "使用TBXml解析";
+			sourceTree = "<group>";
+		};
+		3C1C23821C047ECB00FB295F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C23831C047ECB00FB295F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C1C23991C047F1C00FB295F /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C239A1C047F1C00FB295F /* TBXML+Compression.m */,
+				3C1C239B1C047F1C00FB295F /* TBXML+HTTP.m */,
+				3C1C239C1C047F1C00FB295F /* TBXML.m */,
+			);
+			path = "TBXML-Code";
+			sourceTree = "<group>";
+		};
+		3C1C239D1C047F1C00FB295F /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C23A91C0487FF00FB295F /* refresh_test副本.xml */,
+				3C393A691C7B3CF0002725EF /* books2.xml */,
+				3C1C23A61C047FD000FB295F /* books.xml */,
+				3C1C239E1C047F1C00FB295F /* TBXML+Compression.h */,
+				3C1C239F1C047F1C00FB295F /* TBXML+HTTP.h */,
+				3C1C23A01C047F1C00FB295F /* TBXML.h */,
+			);
+			path = "TBXML-Headers";
+			sourceTree = "<group>";
+		};
+		3C393A531C7AFCCA002725EF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3C393A501C7AFCBC002725EF /* ZKZAuthor.h */,
+				3C393A511C7AFCBC002725EF /* ZKZAuthor.m */,
+				3C393A541C7AFDD3002725EF /* ZKZBook.h */,
+				3C393A551C7AFDD3002725EF /* ZKZBook.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1C237E1C047ECB00FB295F /* 使用TBXml解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1C23961C047ECB00FB295F /* Build configuration list for PBXNativeTarget "使用TBXml解析" */;
+			buildPhases = (
+				3C1C237B1C047ECB00FB295F /* Sources */,
+				3C1C237C1C047ECB00FB295F /* Frameworks */,
+				3C1C237D1C047ECB00FB295F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "使用TBXml解析";
+			productName = "使用TBXml解析";
+			productReference = 3C1C237F1C047ECB00FB295F /* 使用TBXml解析.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C1C23771C047ECB00FB295F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3C1C237E1C047ECB00FB295F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C1C237A1C047ECB00FB295F /* Build configuration list for PBXProject "使用TBXml解析" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C1C23761C047ECB00FB295F;
+			productRefGroup = 3C1C23801C047ECB00FB295F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C1C237E1C047ECB00FB295F /* 使用TBXml解析 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C1C237D1C047ECB00FB295F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C23921C047ECB00FB295F /* LaunchScreen.storyboard in Resources */,
+				3C1C238F1C047ECB00FB295F /* Assets.xcassets in Resources */,
+				3C1C23A71C047FD000FB295F /* books.xml in Resources */,
+				3C393A6A1C7B3CF0002725EF /* books2.xml in Resources */,
+				3C1C238D1C047ECB00FB295F /* Main.storyboard in Resources */,
+				3C1C23AA1C0487FF00FB295F /* refresh_test副本.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1C237B1C047ECB00FB295F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C238A1C047ECB00FB295F /* ViewController.m in Sources */,
+				3C393A521C7AFCBC002725EF /* ZKZAuthor.m in Sources */,
+				3C1C23871C047ECB00FB295F /* AppDelegate.m in Sources */,
+				3C1C23A11C047F1C00FB295F /* TBXML+Compression.m in Sources */,
+				3C1C23A31C047F1C00FB295F /* TBXML.m in Sources */,
+				3C1C23A21C047F1C00FB295F /* TBXML+HTTP.m in Sources */,
+				3C393A561C7AFDD3002725EF /* ZKZBook.m in Sources */,
+				3C1C23841C047ECB00FB295F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C1C238B1C047ECB00FB295F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1C238C1C047ECB00FB295F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C1C23901C047ECB00FB295F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1C23911C047ECB00FB295F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C1C23941C047ECB00FB295F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C1C23951C047ECB00FB295F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1C23971C047ECB00FB295F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "使用TBXml解析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.--TBXml--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C1C23981C047ECB00FB295F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "使用TBXml解析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.--TBXml--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C1C237A1C047ECB00FB295F /* Build configuration list for PBXProject "使用TBXml解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1C23941C047ECB00FB295F /* Debug */,
+				3C1C23951C047ECB00FB295F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1C23961C047ECB00FB295F /* Build configuration list for PBXNativeTarget "使用TBXml解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1C23971C047ECB00FB295F /* Debug */,
+				3C1C23981C047ECB00FB295F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C1C23771C047ECB00FB295F /* Project object */;
+}

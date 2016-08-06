@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>12.12.00. NSUrlSession.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>NSUrlSessionDataTast请求数据.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>使用NSUrlSession实现后台下载功能.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>多任务下载.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>多任务下载2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3C10CD851C911322002FAF29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C10CDA01C91496D002FAF29</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C3F2F3C1C1BCA2100E648AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CABA7041CD0B9D100AFFEF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CABA7571CD33F8100AFFEF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

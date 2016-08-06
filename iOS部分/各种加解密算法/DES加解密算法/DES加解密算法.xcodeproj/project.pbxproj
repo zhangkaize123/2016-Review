@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CBC12661C473A150022DDCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC12651C473A150022DDCC /* main.m */; };
+		3CBC12691C473A150022DDCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC12681C473A150022DDCC /* AppDelegate.m */; };
+		3CBC126C1C473A150022DDCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC126B1C473A150022DDCC /* ViewController.m */; };
+		3CBC126F1C473A150022DDCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC126D1C473A150022DDCC /* Main.storyboard */; };
+		3CBC12711C473A150022DDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC12701C473A150022DDCC /* Assets.xcassets */; };
+		3CBC12741C473A150022DDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC12721C473A150022DDCC /* LaunchScreen.storyboard */; };
+		3CBC127D1C473A320022DDCC /* DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC127C1C473A320022DDCC /* DES.m */; };
+		3CBC12811C473E610022DDCC /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC127F1C473E610022DDCC /* Base64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CBC12611C473A150022DDCC /* DES加解密算法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DES加解密算法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBC12651C473A150022DDCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CBC12671C473A150022DDCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CBC12681C473A150022DDCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CBC126A1C473A150022DDCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CBC126B1C473A150022DDCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CBC126E1C473A150022DDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CBC12701C473A150022DDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CBC12731C473A150022DDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CBC12751C473A150022DDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBC127B1C473A320022DDCC /* DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES.h; sourceTree = "<group>"; };
+		3CBC127C1C473A320022DDCC /* DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES.m; sourceTree = "<group>"; };
+		3CBC127E1C473E610022DDCC /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		3CBC127F1C473E610022DDCC /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		3CBC12801C473E610022DDCC /* Base64Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Defines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CBC125E1C473A150022DDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CBC12581C473A150022DDCC = {
+			isa = PBXGroup;
+			children = (
+				3CBC12631C473A150022DDCC /* DES加解密算法 */,
+				3CBC12621C473A150022DDCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CBC12621C473A150022DDCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CBC12611C473A150022DDCC /* DES加解密算法.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CBC12631C473A150022DDCC /* DES加解密算法 */ = {
+			isa = PBXGroup;
+			children = (
+				3CBC127E1C473E610022DDCC /* Base64.h */,
+				3CBC127F1C473E610022DDCC /* Base64.m */,
+				3CBC12801C473E610022DDCC /* Base64Defines.h */,
+				3CBC127B1C473A320022DDCC /* DES.h */,
+				3CBC127C1C473A320022DDCC /* DES.m */,
+				3CBC12671C473A150022DDCC /* AppDelegate.h */,
+				3CBC12681C473A150022DDCC /* AppDelegate.m */,
+				3CBC126A1C473A150022DDCC /* ViewController.h */,
+				3CBC126B1C473A150022DDCC /* ViewController.m */,
+				3CBC126D1C473A150022DDCC /* Main.storyboard */,
+				3CBC12701C473A150022DDCC /* Assets.xcassets */,
+				3CBC12721C473A150022DDCC /* LaunchScreen.storyboard */,
+				3CBC12751C473A150022DDCC /* Info.plist */,
+				3CBC12641C473A150022DDCC /* Supporting Files */,
+			);
+			path = "DES加解密算法";
+			sourceTree = "<group>";
+		};
+		3CBC12641C473A150022DDCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CBC12651C473A150022DDCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CBC12601C473A150022DDCC /* DES加解密算法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBC12781C473A160022DDCC /* Build configuration list for PBXNativeTarget "DES加解密算法" */;
+			buildPhases = (
+				3CBC125D1C473A150022DDCC /* Sources */,
+				3CBC125E1C473A150022DDCC /* Frameworks */,
+				3CBC125F1C473A150022DDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DES加解密算法";
+			productName = "DES加解密算法";
+			productReference = 3CBC12611C473A150022DDCC /* DES加解密算法.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CBC12591C473A150022DDCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3CBC12601C473A150022DDCC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3CBC125C1C473A150022DDCC /* Build configuration list for PBXProject "DES加解密算法" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CBC12581C473A150022DDCC;
+			productRefGroup = 3CBC12621C473A150022DDCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBC12601C473A150022DDCC /* DES加解密算法 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CBC125F1C473A150022DDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBC12741C473A150022DDCC /* LaunchScreen.storyboard in Resources */,
+				3CBC12711C473A150022DDCC /* Assets.xcassets in Resources */,
+				3CBC126F1C473A150022DDCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CBC125D1C473A150022DDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBC127D1C473A320022DDCC /* DES.m in Sources */,
+				3CBC12811C473E610022DDCC /* Base64.m in Sources */,
+				3CBC126C1C473A150022DDCC /* ViewController.m in Sources */,
+				3CBC12691C473A150022DDCC /* AppDelegate.m in Sources */,
+				3CBC12661C473A150022DDCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CBC126D1C473A150022DDCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBC126E1C473A150022DDCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CBC12721C473A150022DDCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBC12731C473A150022DDCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CBC12761C473A150022DDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CBC12771C473A160022DDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CBC12791C473A160022DDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DES加解密算法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.DES-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CBC127A1C473A160022DDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DES加解密算法/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.DES-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CBC125C1C473A150022DDCC /* Build configuration list for PBXProject "DES加解密算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBC12761C473A150022DDCC /* Debug */,
+				3CBC12771C473A160022DDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBC12781C473A160022DDCC /* Build configuration list for PBXNativeTarget "DES加解密算法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBC12791C473A160022DDCC /* Debug */,
+				3CBC127A1C473A160022DDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CBC12591C473A150022DDCC /* Project object */;
+}

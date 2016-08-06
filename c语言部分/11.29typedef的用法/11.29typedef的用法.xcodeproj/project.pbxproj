@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB639A61C0B223D00D1B6A7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB639A51C0B223D00D1B6A7 /* main.c */; };
+		3CB639B31C0B35D100D1B6A7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB639B21C0B35D100D1B6A7 /* main.c */; };
+		3CB63A011C0B3EE700D1B6A7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB63A001C0B3EE700D1B6A7 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CB639A01C0B223D00D1B6A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CB639AE1C0B35D100D1B6A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CB639FC1C0B3EE700D1B6A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CB639A21C0B223D00D1B6A7 /* 11.29typedef的用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11.29typedef的用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB639A51C0B223D00D1B6A7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CB639B01C0B35D100D1B6A7 /* typedef简化函数指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "typedef简化函数指针"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB639B21C0B35D100D1B6A7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CB639FE1C0B3EE700D1B6A7 /* 结构体指针的简写 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体指针的简写"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB63A001C0B3EE700D1B6A7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB6399F1C0B223D00D1B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB639AD1C0B35D100D1B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB639FB1C0B3EE700D1B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB639991C0B223D00D1B6A7 = {
+			isa = PBXGroup;
+			children = (
+				3CB639A41C0B223D00D1B6A7 /* 11.29typedef的用法 */,
+				3CB639B11C0B35D100D1B6A7 /* typedef简化函数指针 */,
+				3CB639FF1C0B3EE700D1B6A7 /* 结构体指针的简写 */,
+				3CB639A31C0B223D00D1B6A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB639A31C0B223D00D1B6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB639A21C0B223D00D1B6A7 /* 11.29typedef的用法 */,
+				3CB639B01C0B35D100D1B6A7 /* typedef简化函数指针 */,
+				3CB639FE1C0B3EE700D1B6A7 /* 结构体指针的简写 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB639A41C0B223D00D1B6A7 /* 11.29typedef的用法 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB639A51C0B223D00D1B6A7 /* main.c */,
+			);
+			path = "11.29typedef的用法";
+			sourceTree = "<group>";
+		};
+		3CB639B11C0B35D100D1B6A7 /* typedef简化函数指针 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB639B21C0B35D100D1B6A7 /* main.c */,
+			);
+			path = "typedef简化函数指针";
+			sourceTree = "<group>";
+		};
+		3CB639FF1C0B3EE700D1B6A7 /* 结构体指针的简写 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB63A001C0B3EE700D1B6A7 /* main.c */,
+			);
+			path = "结构体指针的简写";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB639A11C0B223D00D1B6A7 /* 11.29typedef的用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB639A91C0B223D00D1B6A7 /* Build configuration list for PBXNativeTarget "11.29typedef的用法" */;
+			buildPhases = (
+				3CB6399E1C0B223D00D1B6A7 /* Sources */,
+				3CB6399F1C0B223D00D1B6A7 /* Frameworks */,
+				3CB639A01C0B223D00D1B6A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11.29typedef的用法";
+			productName = "11.29typedef的用法";
+			productReference = 3CB639A21C0B223D00D1B6A7 /* 11.29typedef的用法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CB639AF1C0B35D100D1B6A7 /* typedef简化函数指针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB639B41C0B35D100D1B6A7 /* Build configuration list for PBXNativeTarget "typedef简化函数指针" */;
+			buildPhases = (
+				3CB639AC1C0B35D100D1B6A7 /* Sources */,
+				3CB639AD1C0B35D100D1B6A7 /* Frameworks */,
+				3CB639AE1C0B35D100D1B6A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "typedef简化函数指针";
+			productName = "typedef简化函数指针";
+			productReference = 3CB639B01C0B35D100D1B6A7 /* typedef简化函数指针 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CB639FD1C0B3EE700D1B6A7 /* 结构体指针的简写 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB63A021C0B3EE700D1B6A7 /* Build configuration list for PBXNativeTarget "结构体指针的简写" */;
+			buildPhases = (
+				3CB639FA1C0B3EE700D1B6A7 /* Sources */,
+				3CB639FB1C0B3EE700D1B6A7 /* Frameworks */,
+				3CB639FC1C0B3EE700D1B6A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "结构体指针的简写";
+			productName = "结构体指针的简写";
+			productReference = 3CB639FE1C0B3EE700D1B6A7 /* 结构体指针的简写 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB6399A1C0B223D00D1B6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3CB639A11C0B223D00D1B6A7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CB639AF1C0B35D100D1B6A7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CB639FD1C0B3EE700D1B6A7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3CB6399D1C0B223D00D1B6A7 /* Build configuration list for PBXProject "11.29typedef的用法" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CB639991C0B223D00D1B6A7;
+			productRefGroup = 3CB639A31C0B223D00D1B6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB639A11C0B223D00D1B6A7 /* 11.29typedef的用法 */,
+				3CB639AF1C0B35D100D1B6A7 /* typedef简化函数指针 */,
+				3CB639FD1C0B3EE700D1B6A7 /* 结构体指针的简写 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB6399E1C0B223D00D1B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB639A61C0B223D00D1B6A7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB639AC1C0B35D100D1B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB639B31C0B35D100D1B6A7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB639FA1C0B3EE700D1B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB63A011C0B3EE700D1B6A7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CB639A71C0B223D00D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CB639A81C0B223D00D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CB639AA1C0B223D00D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB639AB1C0B223D00D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB639B51C0B35D100D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB639B61C0B35D100D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB63A031C0B3EE700D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB63A041C0B3EE700D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB6399D1C0B223D00D1B6A7 /* Build configuration list for PBXProject "11.29typedef的用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB639A71C0B223D00D1B6A7 /* Debug */,
+				3CB639A81C0B223D00D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB639A91C0B223D00D1B6A7 /* Build configuration list for PBXNativeTarget "11.29typedef的用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB639AA1C0B223D00D1B6A7 /* Debug */,
+				3CB639AB1C0B223D00D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB639B41C0B35D100D1B6A7 /* Build configuration list for PBXNativeTarget "typedef简化函数指针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB639B51C0B35D100D1B6A7 /* Debug */,
+				3CB639B61C0B35D100D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB63A021C0B3EE700D1B6A7 /* Build configuration list for PBXNativeTarget "结构体指针的简写" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB63A031C0B3EE700D1B6A7 /* Debug */,
+				3CB63A041C0B3EE700D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB6399A1C0B223D00D1B6A7 /* Project object */;
+}

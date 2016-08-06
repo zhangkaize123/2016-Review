@@ -1,0 +1,32 @@
+//
+//  myselfPCH.pch
+//  12.18.01 PCH文件的使用
+//
+//  Created by 张凯泽 on 15/12/18.
+//  Copyright © 2015年 rytong_zkz. All rights reserved.
+//
+
+
+
+/*
+ 引用PCH到项目的步骤：
+ 1.apple llvm7.0-language里边把precompile prefix header 设为YES
+ 2.prefix header :$(SRCROOT)/你的工程名/你的pch文件的名
+ 
+ */
+
+
+#ifndef myselfPCH_pch
+#define myselfPCH_pch
+
+#ifdef __OBJC__    //里边的内容只能用在.m或者.mm文件中
+
+#ifdef DEBUG//调试阶段
+#define ZKZLog(...) NSLog(__VA_ARGS__)
+#else 
+#define ZKZLog(...)   //发布阶段
+#endif
+
+#endif
+
+#endif /* myselfPCH_pch */

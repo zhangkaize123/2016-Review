@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R1j-vX-SjW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="b4w-8u-0Uy">
+            <objects>
+                <navigationController id="R1j-vX-SjW" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QgI-nU-dZC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ADh-bu-OKj" kind="relationship" relationship="rootViewController" id="CPi-VR-m2c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ED-us-FPb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-539" y="-21"/>
+        </scene>
+        <!--第一个控制器-->
+        <scene sceneID="Bvc-R3-gUG">
+            <objects>
+                <viewController id="ADh-bu-OKj" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uSP-Ee-QQw"/>
+                        <viewControllerLayoutGuide type="bottom" id="j55-Wk-yJo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="anA-SP-fD6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="从第二个控制器传的值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACY-wD-hJH">
+                                <rect key="frame" x="41" y="148" width="239" height="21"/>
+                                <color key="backgroundColor" red="0.44469739628299709" green="1" blue="0.18920881905565434" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.44376665520000003" blue="0.91302836430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第一个控制器" id="dyj-LG-KTe">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="suE-0U-r7f"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="Lhi-Kb-OEw">
+                            <connections>
+                                <segue destination="Ohz-1X-Ih8" kind="push" id="gjT-gH-y9r"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="showLabel" destination="ACY-wD-hJH" id="1iw-UF-pR2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kil-aG-qg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-102" y="-21"/>
+        </scene>
+        <!--第二个控制器-->
+        <scene sceneID="2PB-5u-JdA">
+            <objects>
+                <viewController id="Ohz-1X-Ih8" customClass="TWOViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cm0-V2-MIS"/>
+                        <viewControllerLayoutGuide type="bottom" id="P9W-QZ-1sj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zcp-5Z-iz7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4l-nS-gm7">
+                                <rect key="frame" x="73" y="159" width="174" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPh-Vx-oz4">
+                                <rect key="frame" x="73" y="261" width="174" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.46430542157253141" blue="0.84799777981304303" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="addClick" destination="Ohz-1X-Ih8" eventType="touchUpInside" id="L3P-kD-MTh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="第二个控制器" id="Gba-hi-OHo"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="textName" destination="I4l-nS-gm7" id="IwI-V8-tqh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nRM-A2-y1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="-28"/>
+        </scene>
+    </scenes>
+</document>

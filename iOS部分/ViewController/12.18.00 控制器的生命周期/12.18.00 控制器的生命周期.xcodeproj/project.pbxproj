@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2E2E751C239B7B00956BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E2E741C239B7B00956BFB /* main.m */; };
+		3C2E2E781C239B7B00956BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E2E771C239B7B00956BFB /* AppDelegate.m */; };
+		3C2E2E7E1C239B7C00956BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E2E7C1C239B7C00956BFB /* Main.storyboard */; };
+		3C2E2E801C239B7C00956BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E2E7F1C239B7C00956BFB /* Assets.xcassets */; };
+		3C2E2E831C239B7C00956BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E2E811C239B7C00956BFB /* LaunchScreen.storyboard */; };
+		3C2E2E8C1C239E0800956BFB /* ZKZOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E2E8B1C239E0800956BFB /* ZKZOneViewController.m */; };
+		3C2E2E8F1C239E1B00956BFB /* ZKZTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E2E8E1C239E1B00956BFB /* ZKZTwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C2E2E701C239B7B00956BFB /* 12.18.00 控制器的生命周期.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12.18.00 控制器的生命周期.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2E2E741C239B7B00956BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C2E2E761C239B7B00956BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C2E2E771C239B7B00956BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C2E2E7D1C239B7C00956BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C2E2E7F1C239B7C00956BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2E2E821C239B7C00956BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C2E2E841C239B7C00956BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2E2E8A1C239E0800956BFB /* ZKZOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZOneViewController.h; sourceTree = "<group>"; };
+		3C2E2E8B1C239E0800956BFB /* ZKZOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZOneViewController.m; sourceTree = "<group>"; };
+		3C2E2E8D1C239E1B00956BFB /* ZKZTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZTwoViewController.h; sourceTree = "<group>"; };
+		3C2E2E8E1C239E1B00956BFB /* ZKZTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZTwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2E2E6D1C239B7B00956BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2E2E671C239B7B00956BFB = {
+			isa = PBXGroup;
+			children = (
+				3C2E2E721C239B7B00956BFB /* 12.18.00 控制器的生命周期 */,
+				3C2E2E711C239B7B00956BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2E2E711C239B7B00956BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2E2E701C239B7B00956BFB /* 12.18.00 控制器的生命周期.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2E2E721C239B7B00956BFB /* 12.18.00 控制器的生命周期 */ = {
+			isa = PBXGroup;
+			children = (
+				3C2E2E761C239B7B00956BFB /* AppDelegate.h */,
+				3C2E2E771C239B7B00956BFB /* AppDelegate.m */,
+				3C2E2E8A1C239E0800956BFB /* ZKZOneViewController.h */,
+				3C2E2E8B1C239E0800956BFB /* ZKZOneViewController.m */,
+				3C2E2E8D1C239E1B00956BFB /* ZKZTwoViewController.h */,
+				3C2E2E8E1C239E1B00956BFB /* ZKZTwoViewController.m */,
+				3C2E2E7C1C239B7C00956BFB /* Main.storyboard */,
+				3C2E2E731C239B7B00956BFB /* Supporting Files */,
+			);
+			path = "12.18.00 控制器的生命周期";
+			sourceTree = "<group>";
+		};
+		3C2E2E731C239B7B00956BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C2E2E7F1C239B7C00956BFB /* Assets.xcassets */,
+				3C2E2E811C239B7C00956BFB /* LaunchScreen.storyboard */,
+				3C2E2E841C239B7C00956BFB /* Info.plist */,
+				3C2E2E741C239B7B00956BFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2E2E6F1C239B7B00956BFB /* 12.18.00 控制器的生命周期 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2E2E871C239B7C00956BFB /* Build configuration list for PBXNativeTarget "12.18.00 控制器的生命周期" */;
+			buildPhases = (
+				3C2E2E6C1C239B7B00956BFB /* Sources */,
+				3C2E2E6D1C239B7B00956BFB /* Frameworks */,
+				3C2E2E6E1C239B7B00956BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12.18.00 控制器的生命周期";
+			productName = "12.18.00 控制器的生命周期";
+			productReference = 3C2E2E701C239B7B00956BFB /* 12.18.00 控制器的生命周期.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C2E2E681C239B7B00956BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3C2E2E6F1C239B7B00956BFB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3C2E2E6B1C239B7B00956BFB /* Build configuration list for PBXProject "12.18.00 控制器的生命周期" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C2E2E671C239B7B00956BFB;
+			productRefGroup = 3C2E2E711C239B7B00956BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2E2E6F1C239B7B00956BFB /* 12.18.00 控制器的生命周期 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2E2E6E1C239B7B00956BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2E2E831C239B7C00956BFB /* LaunchScreen.storyboard in Resources */,
+				3C2E2E801C239B7C00956BFB /* Assets.xcassets in Resources */,
+				3C2E2E7E1C239B7C00956BFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2E2E6C1C239B7B00956BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2E2E781C239B7B00956BFB /* AppDelegate.m in Sources */,
+				3C2E2E8F1C239E1B00956BFB /* ZKZTwoViewController.m in Sources */,
+				3C2E2E8C1C239E0800956BFB /* ZKZOneViewController.m in Sources */,
+				3C2E2E751C239B7B00956BFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C2E2E7C1C239B7C00956BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2E2E7D1C239B7C00956BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C2E2E811C239B7C00956BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2E2E821C239B7C00956BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2E2E851C239B7C00956BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C2E2E861C239B7C00956BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2E2E881C239B7C00956BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "12.18.00 控制器的生命周期/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.-2-18-00---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C2E2E891C239B7C00956BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "12.18.00 控制器的生命周期/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.-2-18-00---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2E2E6B1C239B7B00956BFB /* Build configuration list for PBXProject "12.18.00 控制器的生命周期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2E2E851C239B7C00956BFB /* Debug */,
+				3C2E2E861C239B7C00956BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2E2E871C239B7C00956BFB /* Build configuration list for PBXNativeTarget "12.18.00 控制器的生命周期" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2E2E881C239B7C00956BFB /* Debug */,
+				3C2E2E891C239B7C00956BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C2E2E681C239B7B00956BFB /* Project object */;
+}

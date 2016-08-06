@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4794591CFD331200653690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4794581CFD331200653690 /* main.m */; };
+		3C47945C1CFD331200653690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C47945B1CFD331200653690 /* AppDelegate.m */; };
+		3C47945F1CFD331200653690 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C47945E1CFD331200653690 /* ViewController.m */; };
+		3C4794621CFD331200653690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4794601CFD331200653690 /* Main.storyboard */; };
+		3C4794641CFD331200653690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4794631CFD331200653690 /* Assets.xcassets */; };
+		3C4794671CFD331200653690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4794651CFD331200653690 /* LaunchScreen.storyboard */; };
+		3C4794701CFD354B00653690 /* ZKZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C47946F1CFD354B00653690 /* ZKZView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C4794541CFD331200653690 /* touch事件的内部操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "touch事件的内部操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4794581CFD331200653690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C47945A1CFD331200653690 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C47945B1CFD331200653690 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C47945D1CFD331200653690 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C47945E1CFD331200653690 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C4794611CFD331200653690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4794631CFD331200653690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4794661CFD331200653690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4794681CFD331200653690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C47946E1CFD354B00653690 /* ZKZView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZView.h; sourceTree = "<group>"; };
+		3C47946F1CFD354B00653690 /* ZKZView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKZView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4794511CFD331200653690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C47944B1CFD331200653690 = {
+			isa = PBXGroup;
+			children = (
+				3C4794561CFD331200653690 /* touch事件的内部操作 */,
+				3C4794551CFD331200653690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4794551CFD331200653690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4794541CFD331200653690 /* touch事件的内部操作.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4794561CFD331200653690 /* touch事件的内部操作 */ = {
+			isa = PBXGroup;
+			children = (
+				3C47945A1CFD331200653690 /* AppDelegate.h */,
+				3C47945B1CFD331200653690 /* AppDelegate.m */,
+				3C47945D1CFD331200653690 /* ViewController.h */,
+				3C47945E1CFD331200653690 /* ViewController.m */,
+				3C4794601CFD331200653690 /* Main.storyboard */,
+				3C4794631CFD331200653690 /* Assets.xcassets */,
+				3C4794651CFD331200653690 /* LaunchScreen.storyboard */,
+				3C4794681CFD331200653690 /* Info.plist */,
+				3C4794571CFD331200653690 /* Supporting Files */,
+				3C47946E1CFD354B00653690 /* ZKZView.h */,
+				3C47946F1CFD354B00653690 /* ZKZView.m */,
+			);
+			path = "touch事件的内部操作";
+			sourceTree = "<group>";
+		};
+		3C4794571CFD331200653690 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C4794581CFD331200653690 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4794531CFD331200653690 /* touch事件的内部操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C47946B1CFD331200653690 /* Build configuration list for PBXNativeTarget "touch事件的内部操作" */;
+			buildPhases = (
+				3C4794501CFD331200653690 /* Sources */,
+				3C4794511CFD331200653690 /* Frameworks */,
+				3C4794521CFD331200653690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "touch事件的内部操作";
+			productName = "touch事件的内部操作";
+			productReference = 3C4794541CFD331200653690 /* touch事件的内部操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C47944C1CFD331200653690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3C4794531CFD331200653690 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3C47944F1CFD331200653690 /* Build configuration list for PBXProject "touch事件的内部操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C47944B1CFD331200653690;
+			productRefGroup = 3C4794551CFD331200653690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4794531CFD331200653690 /* touch事件的内部操作 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4794521CFD331200653690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4794671CFD331200653690 /* LaunchScreen.storyboard in Resources */,
+				3C4794641CFD331200653690 /* Assets.xcassets in Resources */,
+				3C4794621CFD331200653690 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4794501CFD331200653690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C47945F1CFD331200653690 /* ViewController.m in Sources */,
+				3C47945C1CFD331200653690 /* AppDelegate.m in Sources */,
+				3C4794701CFD354B00653690 /* ZKZView.m in Sources */,
+				3C4794591CFD331200653690 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C4794601CFD331200653690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4794611CFD331200653690 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4794651CFD331200653690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4794661CFD331200653690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4794691CFD331200653690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C47946A1CFD331200653690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C47946C1CFD331200653690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "touch事件的内部操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.touch-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C47946D1CFD331200653690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "touch事件的内部操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rytong.touch-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C47944F1CFD331200653690 /* Build configuration list for PBXProject "touch事件的内部操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4794691CFD331200653690 /* Debug */,
+				3C47946A1CFD331200653690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C47946B1CFD331200653690 /* Build configuration list for PBXNativeTarget "touch事件的内部操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C47946C1CFD331200653690 /* Debug */,
+				3C47946D1CFD331200653690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C47944C1CFD331200653690 /* Project object */;
+}

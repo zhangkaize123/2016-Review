@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB639731C0B0C4700D1B6A7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB639721C0B0C4700D1B6A7 /* main.c */; };
+		3CB6397C1C0B0CA500D1B6A7 /* ZKZExtern.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6397A1C0B0CA500D1B6A7 /* ZKZExtern.c */; };
+		3CB639841C0B0E3B00D1B6A7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB639831C0B0E3B00D1B6A7 /* main.c */; };
+		3CB6398A1C0B0E5600D1B6A7 /* ZKZStatic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB639881C0B0E5600D1B6A7 /* ZKZStatic.c */; };
+		3CB639921C0B174600D1B6A7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB639911C0B174600D1B6A7 /* main.c */; };
+		3CB639981C0B182400D1B6A7 /* ZKZSTatic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CB639961C0B182400D1B6A7 /* ZKZSTatic.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CB6396D1C0B0C4700D1B6A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CB6397F1C0B0E3B00D1B6A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CB6398D1C0B174600D1B6A7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CB6396F1C0B0C4700D1B6A7 /* 11.29static与extern的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11.29static与extern的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB639721C0B0C4700D1B6A7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CB6397A1C0B0CA500D1B6A7 /* ZKZExtern.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZKZExtern.c; sourceTree = "<group>"; };
+		3CB6397B1C0B0CA500D1B6A7 /* ZKZExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZExtern.h; sourceTree = "<group>"; };
+		3CB639811C0B0E3B00D1B6A7 /* static的用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "static的用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB639831C0B0E3B00D1B6A7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CB639881C0B0E5600D1B6A7 /* ZKZStatic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZKZStatic.c; sourceTree = "<group>"; };
+		3CB639891C0B0E5600D1B6A7 /* ZKZStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZStatic.h; sourceTree = "<group>"; };
+		3CB6398F1C0B174600D1B6A7 /* extern与static对变量的作用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "extern与static对变量的作用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB639911C0B174600D1B6A7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CB639961C0B182400D1B6A7 /* ZKZSTatic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZKZSTatic.c; sourceTree = "<group>"; };
+		3CB639971C0B182400D1B6A7 /* ZKZSTatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKZSTatic.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB6396C1C0B0C4700D1B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB6397E1C0B0E3B00D1B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB6398C1C0B174600D1B6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB639661C0B0C4700D1B6A7 = {
+			isa = PBXGroup;
+			children = (
+				3CB639711C0B0C4700D1B6A7 /* 11.29static与extern的使用 */,
+				3CB639821C0B0E3B00D1B6A7 /* static的用法 */,
+				3CB639901C0B174600D1B6A7 /* extern与static对变量的作用 */,
+				3CB639701C0B0C4700D1B6A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB639701C0B0C4700D1B6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB6396F1C0B0C4700D1B6A7 /* 11.29static与extern的使用 */,
+				3CB639811C0B0E3B00D1B6A7 /* static的用法 */,
+				3CB6398F1C0B174600D1B6A7 /* extern与static对变量的作用 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB639711C0B0C4700D1B6A7 /* 11.29static与extern的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB639721C0B0C4700D1B6A7 /* main.c */,
+				3CB6397A1C0B0CA500D1B6A7 /* ZKZExtern.c */,
+				3CB6397B1C0B0CA500D1B6A7 /* ZKZExtern.h */,
+			);
+			path = "11.29static与extern的使用";
+			sourceTree = "<group>";
+		};
+		3CB639821C0B0E3B00D1B6A7 /* static的用法 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB639831C0B0E3B00D1B6A7 /* main.c */,
+				3CB639881C0B0E5600D1B6A7 /* ZKZStatic.c */,
+				3CB639891C0B0E5600D1B6A7 /* ZKZStatic.h */,
+			);
+			path = "static的用法";
+			sourceTree = "<group>";
+		};
+		3CB639901C0B174600D1B6A7 /* extern与static对变量的作用 */ = {
+			isa = PBXGroup;
+			children = (
+				3CB639911C0B174600D1B6A7 /* main.c */,
+				3CB639961C0B182400D1B6A7 /* ZKZSTatic.c */,
+				3CB639971C0B182400D1B6A7 /* ZKZSTatic.h */,
+			);
+			path = "extern与static对变量的作用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB6396E1C0B0C4700D1B6A7 /* 11.29static与extern的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB639761C0B0C4700D1B6A7 /* Build configuration list for PBXNativeTarget "11.29static与extern的使用" */;
+			buildPhases = (
+				3CB6396B1C0B0C4700D1B6A7 /* Sources */,
+				3CB6396C1C0B0C4700D1B6A7 /* Frameworks */,
+				3CB6396D1C0B0C4700D1B6A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11.29static与extern的使用";
+			productName = "11.29static与extern的使用";
+			productReference = 3CB6396F1C0B0C4700D1B6A7 /* 11.29static与extern的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CB639801C0B0E3B00D1B6A7 /* static的用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB639851C0B0E3B00D1B6A7 /* Build configuration list for PBXNativeTarget "static的用法" */;
+			buildPhases = (
+				3CB6397D1C0B0E3B00D1B6A7 /* Sources */,
+				3CB6397E1C0B0E3B00D1B6A7 /* Frameworks */,
+				3CB6397F1C0B0E3B00D1B6A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "static的用法";
+			productName = "static的用法";
+			productReference = 3CB639811C0B0E3B00D1B6A7 /* static的用法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CB6398E1C0B174600D1B6A7 /* extern与static对变量的作用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB639931C0B174600D1B6A7 /* Build configuration list for PBXNativeTarget "extern与static对变量的作用" */;
+			buildPhases = (
+				3CB6398B1C0B174600D1B6A7 /* Sources */,
+				3CB6398C1C0B174600D1B6A7 /* Frameworks */,
+				3CB6398D1C0B174600D1B6A7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "extern与static对变量的作用";
+			productName = "extern与static对变量的作用";
+			productReference = 3CB6398F1C0B174600D1B6A7 /* extern与static对变量的作用 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB639671C0B0C4700D1B6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3CB6396E1C0B0C4700D1B6A7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CB639801C0B0E3B00D1B6A7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CB6398E1C0B174600D1B6A7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3CB6396A1C0B0C4700D1B6A7 /* Build configuration list for PBXProject "11.29static与extern的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CB639661C0B0C4700D1B6A7;
+			productRefGroup = 3CB639701C0B0C4700D1B6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB6396E1C0B0C4700D1B6A7 /* 11.29static与extern的使用 */,
+				3CB639801C0B0E3B00D1B6A7 /* static的用法 */,
+				3CB6398E1C0B174600D1B6A7 /* extern与static对变量的作用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB6396B1C0B0C4700D1B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB639731C0B0C4700D1B6A7 /* main.c in Sources */,
+				3CB6397C1C0B0CA500D1B6A7 /* ZKZExtern.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB6397D1C0B0E3B00D1B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB639841C0B0E3B00D1B6A7 /* main.c in Sources */,
+				3CB6398A1C0B0E5600D1B6A7 /* ZKZStatic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB6398B1C0B174600D1B6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB639921C0B174600D1B6A7 /* main.c in Sources */,
+				3CB639981C0B182400D1B6A7 /* ZKZSTatic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CB639741C0B0C4700D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CB639751C0B0C4700D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CB639771C0B0C4700D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB639781C0B0C4700D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB639861C0B0E3B00D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB639871C0B0E3B00D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB639941C0B174600D1B6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB639951C0B174600D1B6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB6396A1C0B0C4700D1B6A7 /* Build configuration list for PBXProject "11.29static与extern的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB639741C0B0C4700D1B6A7 /* Debug */,
+				3CB639751C0B0C4700D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB639761C0B0C4700D1B6A7 /* Build configuration list for PBXNativeTarget "11.29static与extern的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB639771C0B0C4700D1B6A7 /* Debug */,
+				3CB639781C0B0C4700D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB639851C0B0E3B00D1B6A7 /* Build configuration list for PBXNativeTarget "static的用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB639861C0B0E3B00D1B6A7 /* Debug */,
+				3CB639871C0B0E3B00D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB639931C0B174600D1B6A7 /* Build configuration list for PBXNativeTarget "extern与static对变量的作用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB639941C0B174600D1B6A7 /* Debug */,
+				3CB639951C0B174600D1B6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB639671C0B0C4700D1B6A7 /* Project object */;
+}

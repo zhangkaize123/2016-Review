@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzU-je-Tgd">
+                                <rect key="frame" x="79" y="28" width="162" height="30"/>
+                                <color key="backgroundColor" red="0.3911898484448515" green="1" blue="0.33169289174405214" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="退出线程"/>
+                                <connections>
+                                    <action selector="ExitThreadClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHV-Dg-39u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mq-eJ-US7">
+                                <rect key="frame" x="79" y="74" width="162" height="30"/>
+                                <color key="backgroundColor" red="0.39118984839999998" green="1" blue="0.33169289169999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="下载任务一"/>
+                                <connections>
+                                    <action selector="TaskOne" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfw-Ry-vPC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kte-U5-ve0">
+                                <rect key="frame" x="79" y="119" width="162" height="30"/>
+                                <color key="backgroundColor" red="0.39118984839999998" green="1" blue="0.33169289169999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="下载任务二"/>
+                                <connections>
+                                    <action selector="TastTwo" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULH-nN-V70"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6m-ww-b84">
+                                <rect key="frame" x="79" y="176" width="162" height="30"/>
+                                <color key="backgroundColor" red="0.39118984839999998" green="1" blue="0.33169289169999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="下载任务三"/>
+                                <connections>
+                                    <action selector="TaskThree" destination="BYZ-38-t0r" eventType="touchUpInside" id="08q-b3-PRs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223" y="158"/>
+        </scene>
+    </scenes>
+</document>

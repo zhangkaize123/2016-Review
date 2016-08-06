@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRo-Fa-WPb">
+                                <rect key="frame" x="91" y="50" width="138" height="30"/>
+                                <state key="normal" title="压缩zip包"/>
+                                <connections>
+                                    <action selector="PressZipClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Y1-RA-AWO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKv-t3-KjZ">
+                                <rect key="frame" x="99" y="146" width="123" height="30"/>
+                                <state key="normal" title="解zip包"/>
+                                <connections>
+                                    <action selector="UnarchiveZipClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVI-Jt-8aW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="SKv-t3-KjZ" secondAttribute="trailing" constant="98" id="AGn-M7-Crx"/>
+                            <constraint firstItem="SKv-t3-KjZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="99" id="G1p-cK-IcC"/>
+                            <constraint firstItem="SKv-t3-KjZ" firstAttribute="top" secondItem="lRo-Fa-WPb" secondAttribute="bottom" constant="66" id="GPb-6A-Pzl"/>
+                            <constraint firstItem="lRo-Fa-WPb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="91" id="VQ6-o9-MFP"/>
+                            <constraint firstAttribute="trailing" secondItem="lRo-Fa-WPb" secondAttribute="trailing" constant="91" id="kWY-aQ-obr"/>
+                            <constraint firstItem="lRo-Fa-WPb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="nyF-hO-1Lg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="178"/>
+        </scene>
+    </scenes>
+</document>

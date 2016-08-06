@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC134131C07FD96007F164D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CC134121C07FD96007F164D /* main.c */; };
+		3CC134201C0804A7007F164D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1341F1C0804A7007F164D /* main.c */; };
+		3CC1342B1C083284007F164D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1342A1C083284007F164D /* main.c */; };
+		3CC134361C084200007F164D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CC134351C084200007F164D /* main.c */; };
+		3CC134411C084D9E007F164D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CC134401C084D9E007F164D /* main.c */; };
+		3CC1344C1C0946E3007F164D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1344B1C0946E3007F164D /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C4C98471CF43D3F00913C47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CC1340D1C07FD96007F164D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CC1341B1C0804A6007F164D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CC134261C083284007F164D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CC134311C084200007F164D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CC1343C1C084D9E007F164D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3CC134471C0946E3007F164D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C4C98491CF43D3F00913C47 /* 结构体使用点语法赋值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体使用点语法赋值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC1340F1C07FD96007F164D /* 11.27.01结构体 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11.27.01结构体"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC134121C07FD96007F164D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CC1341D1C0804A6007F164D /* 结构体内存细节 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体内存细节"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC1341F1C0804A7007F164D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CC134281C083284007F164D /* 定义结构体的方式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "定义结构体的方式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC1342A1C083284007F164D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CC134331C084200007F164D /* 结构体数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体数组"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC134351C084200007F164D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CC1343E1C084D9E007F164D /* 指向结构体的指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "指向结构体的指针"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC134401C084D9E007F164D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3CC134491C0946E3007F164D /* 结构体与函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "结构体与函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC1344B1C0946E3007F164D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4C98461CF43D3F00913C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1340C1C07FD96007F164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1341A1C0804A6007F164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC134251C083284007F164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC134301C084200007F164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1343B1C084D9E007F164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC134461C0946E3007F164D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC134061C07FD96007F164D = {
+			isa = PBXGroup;
+			children = (
+				3CC134111C07FD96007F164D /* 11.27.01结构体 */,
+				3CC1341E1C0804A6007F164D /* 结构体内存细节 */,
+				3CC134291C083284007F164D /* 定义结构体的方式 */,
+				3CC134341C084200007F164D /* 结构体数组 */,
+				3CC1343F1C084D9E007F164D /* 指向结构体的指针 */,
+				3CC1344A1C0946E3007F164D /* 结构体与函数 */,
+				3CC134101C07FD96007F164D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC134101C07FD96007F164D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC1340F1C07FD96007F164D /* 11.27.01结构体 */,
+				3CC1341D1C0804A6007F164D /* 结构体内存细节 */,
+				3CC134281C083284007F164D /* 定义结构体的方式 */,
+				3CC134331C084200007F164D /* 结构体数组 */,
+				3CC1343E1C084D9E007F164D /* 指向结构体的指针 */,
+				3CC134491C0946E3007F164D /* 结构体与函数 */,
+				3C4C98491CF43D3F00913C47 /* 结构体使用点语法赋值 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC134111C07FD96007F164D /* 11.27.01结构体 */ = {
+			isa = PBXGroup;
+			children = (
+				3CC134121C07FD96007F164D /* main.c */,
+			);
+			path = "11.27.01结构体";
+			sourceTree = "<group>";
+		};
+		3CC1341E1C0804A6007F164D /* 结构体内存细节 */ = {
+			isa = PBXGroup;
+			children = (
+				3CC1341F1C0804A7007F164D /* main.c */,
+			);
+			path = "结构体内存细节";
+			sourceTree = "<group>";
+		};
+		3CC134291C083284007F164D /* 定义结构体的方式 */ = {
+			isa = PBXGroup;
+			children = (
+				3CC1342A1C083284007F164D /* main.c */,
+			);
+			path = "定义结构体的方式";
+			sourceTree = "<group>";
+		};
+		3CC134341C084200007F164D /* 结构体数组 */ = {
+			isa = PBXGroup;
+			children = (
+				3CC134351C084200007F164D /* main.c */,
+			);
+			path = "结构体数组";
+			sourceTree = "<group>";
+		};
+		3CC1343F1C084D9E007F164D /* 指向结构体的指针 */ = {
+			isa = PBXGroup;
+			children = (
+				3CC134401C084D9E007F164D /* main.c */,
+			);
+			path = "指向结构体的指针";
+			sourceTree = "<group>";
+		};
+		3CC1344A1C0946E3007F164D /* 结构体与函数 */ = {
+			isa = PBXGroup;
+			children = (
+				3CC1344B1C0946E3007F164D /* main.c */,
+			);
+			path = "结构体与函数";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4C98481CF43D3F00913C47 /* 结构体使用点语法赋值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4C984F1CF43D3F00913C47 /* Build configuration list for PBXNativeTarget "结构体使用点语法赋值" */;
+			buildPhases = (
+				3C4C98451CF43D3F00913C47 /* Sources */,
+				3C4C98461CF43D3F00913C47 /* Frameworks */,
+				3C4C98471CF43D3F00913C47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "结构体使用点语法赋值";
+			productName = "结构体使用点语法赋值";
+			productReference = 3C4C98491CF43D3F00913C47 /* 结构体使用点语法赋值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CC1340E1C07FD96007F164D /* 11.27.01结构体 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC134161C07FD96007F164D /* Build configuration list for PBXNativeTarget "11.27.01结构体" */;
+			buildPhases = (
+				3CC1340B1C07FD96007F164D /* Sources */,
+				3CC1340C1C07FD96007F164D /* Frameworks */,
+				3CC1340D1C07FD96007F164D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11.27.01结构体";
+			productName = "11.27.01结构体";
+			productReference = 3CC1340F1C07FD96007F164D /* 11.27.01结构体 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CC1341C1C0804A6007F164D /* 结构体内存细节 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC134211C0804A7007F164D /* Build configuration list for PBXNativeTarget "结构体内存细节" */;
+			buildPhases = (
+				3CC134191C0804A6007F164D /* Sources */,
+				3CC1341A1C0804A6007F164D /* Frameworks */,
+				3CC1341B1C0804A6007F164D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "结构体内存细节";
+			productName = "结构体内存细节";
+			productReference = 3CC1341D1C0804A6007F164D /* 结构体内存细节 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CC134271C083284007F164D /* 定义结构体的方式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC1342C1C083284007F164D /* Build configuration list for PBXNativeTarget "定义结构体的方式" */;
+			buildPhases = (
+				3CC134241C083284007F164D /* Sources */,
+				3CC134251C083284007F164D /* Frameworks */,
+				3CC134261C083284007F164D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "定义结构体的方式";
+			productName = "定义结构体的方式";
+			productReference = 3CC134281C083284007F164D /* 定义结构体的方式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CC134321C084200007F164D /* 结构体数组 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC134371C084200007F164D /* Build configuration list for PBXNativeTarget "结构体数组" */;
+			buildPhases = (
+				3CC1342F1C084200007F164D /* Sources */,
+				3CC134301C084200007F164D /* Frameworks */,
+				3CC134311C084200007F164D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "结构体数组";
+			productName = "结构体数组";
+			productReference = 3CC134331C084200007F164D /* 结构体数组 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CC1343D1C084D9E007F164D /* 指向结构体的指针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC134421C084D9E007F164D /* Build configuration list for PBXNativeTarget "指向结构体的指针" */;
+			buildPhases = (
+				3CC1343A1C084D9E007F164D /* Sources */,
+				3CC1343B1C084D9E007F164D /* Frameworks */,
+				3CC1343C1C084D9E007F164D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "指向结构体的指针";
+			productName = "指向结构体的指针";
+			productReference = 3CC1343E1C084D9E007F164D /* 指向结构体的指针 */;
+			productType = "com.apple.product-type.tool";
+		};
+		3CC134481C0946E3007F164D /* 结构体与函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC1344F1C0946E3007F164D /* Build configuration list for PBXNativeTarget "结构体与函数" */;
+			buildPhases = (
+				3CC134451C0946E3007F164D /* Sources */,
+				3CC134461C0946E3007F164D /* Frameworks */,
+				3CC134471C0946E3007F164D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "结构体与函数";
+			productName = "结构体与函数";
+			productReference = 3CC134491C0946E3007F164D /* 结构体与函数 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC134071C07FD96007F164D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rytong_zkz;
+				TargetAttributes = {
+					3C4C98481CF43D3F00913C47 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3CC1340E1C07FD96007F164D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CC1341C1C0804A6007F164D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CC134271C083284007F164D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CC134321C084200007F164D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CC1343D1C084D9E007F164D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CC134481C0946E3007F164D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3CC1340A1C07FD96007F164D /* Build configuration list for PBXProject "11.27.01结构体" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CC134061C07FD96007F164D;
+			productRefGroup = 3CC134101C07FD96007F164D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC1340E1C07FD96007F164D /* 11.27.01结构体 */,
+				3CC1341C1C0804A6007F164D /* 结构体内存细节 */,
+				3CC134271C083284007F164D /* 定义结构体的方式 */,
+				3CC134321C084200007F164D /* 结构体数组 */,
+				3CC1343D1C084D9E007F164D /* 指向结构体的指针 */,
+				3CC134481C0946E3007F164D /* 结构体与函数 */,
+				3C4C98481CF43D3F00913C47 /* 结构体使用点语法赋值 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4C98451CF43D3F00913C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1340B1C07FD96007F164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC134131C07FD96007F164D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC134191C0804A6007F164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC134201C0804A7007F164D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC134241C083284007F164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC1342B1C083284007F164D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1342F1C084200007F164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC134361C084200007F164D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC1343A1C084D9E007F164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC134411C084D9E007F164D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC134451C0946E3007F164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC1344C1C0946E3007F164D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C4C984D1CF43D3F00913C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				ENABLE_TESTABILITY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C4C984E1CF43D3F00913C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CC134141C07FD96007F164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CC134151C07FD96007F164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CC134171C07FD96007F164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CC134181C07FD96007F164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CC134221C0804A7007F164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CC134231C0804A7007F164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CC1342D1C083284007F164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CC1342E1C083284007F164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CC134381C084200007F164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CC134391C084200007F164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CC134431C084D9E007F164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CC134441C084D9E007F164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CC1344D1C0946E3007F164D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CC1344E1C0946E3007F164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4C984F1CF43D3F00913C47 /* Build configuration list for PBXNativeTarget "结构体使用点语法赋值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4C984D1CF43D3F00913C47 /* Debug */,
+				3C4C984E1CF43D3F00913C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CC1340A1C07FD96007F164D /* Build configuration list for PBXProject "11.27.01结构体" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC134141C07FD96007F164D /* Debug */,
+				3CC134151C07FD96007F164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC134161C07FD96007F164D /* Build configuration list for PBXNativeTarget "11.27.01结构体" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC134171C07FD96007F164D /* Debug */,
+				3CC134181C07FD96007F164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC134211C0804A7007F164D /* Build configuration list for PBXNativeTarget "结构体内存细节" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC134221C0804A7007F164D /* Debug */,
+				3CC134231C0804A7007F164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC1342C1C083284007F164D /* Build configuration list for PBXNativeTarget "定义结构体的方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC1342D1C083284007F164D /* Debug */,
+				3CC1342E1C083284007F164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC134371C084200007F164D /* Build configuration list for PBXNativeTarget "结构体数组" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC134381C084200007F164D /* Debug */,
+				3CC134391C084200007F164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC134421C084D9E007F164D /* Build configuration list for PBXNativeTarget "指向结构体的指针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC134431C084D9E007F164D /* Debug */,
+				3CC134441C084D9E007F164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC1344F1C0946E3007F164D /* Build configuration list for PBXNativeTarget "结构体与函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC1344D1C0946E3007F164D /* Debug */,
+				3CC1344E1C0946E3007F164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC134071C07FD96007F164D /* Project object */;
+}
